@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# 卡面大图由 refresh-cards.bat 本地生成，不纳入版本管理
+cardsasset/
+public/cards/*.png
+public/cards/*.PNG
+public/cards/*.jpeg
+public/cards/*.JPEG
+!public/cards/nullcard.PNG

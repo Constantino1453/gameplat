@@ -1,0 +1,6 @@
+[permissions]
+allow = ["Bash(node -v && npm -v)"]
+
+[sandbox]
+workspace_root = "E:\\project-gameplat"
+allow_write = ["E:\\project-learn"]
